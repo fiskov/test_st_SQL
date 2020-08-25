@@ -42,6 +42,7 @@ ALTER TABLE [dbo].[products] CHECK CONSTRAINT [FK_products_units]
 GO
 ```
 ![p012.png](https://github.com/fiskov/test_st_SQL/blob/master/Image/p012.png)
+![p013.png](https://github.com/fiskov/test_st_SQL/blob/master/Image/p013.png)
 
 - Остатки товара в магазинах
 
@@ -72,7 +73,7 @@ GO
 ALTER TABLE [dbo].[stocks] CHECK CONSTRAINT [FK_stocks_stores]
 GO
 ```
-![p013.png](https://github.com/fiskov/test_st_SQL/blob/master/Image/p013.png)
+![p014.png](https://github.com/fiskov/test_st_SQL/blob/master/Image/p014.png)
 
 - Покупатели
 
@@ -88,7 +89,7 @@ CREATE TABLE [dbo].[customers](
 ) ON [PRIMARY]
 
 ```
-![p014.png](https://github.com/fiskov/test_st_SQL/blob/master/Image/p014.png)
+![p015.png](https://github.com/fiskov/test_st_SQL/blob/master/Image/p015.png)
 
 - Документы
 ```SQL
@@ -128,7 +129,7 @@ ALTER TABLE [dbo].[orders] CHECK CONSTRAINT [FK_orders_stores]
 GO
 
 ```
-![p015.png](https://github.com/fiskov/test_st_SQL/blob/master/Image/p015.png)
+![p016.png](https://github.com/fiskov/test_st_SQL/blob/master/Image/p016.png)
 
 ## 2. Заполните таблицы:
 
